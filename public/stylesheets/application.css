@@ -23,3 +23,10 @@ h1	{
 	font-family: courier 
 }
 
+.incorrect {
+  background-color: yellow;
+}
+
+.value-provided {
+  background-color: #DDD;
+}
