@@ -4,10 +4,10 @@ require 'rack-flash'
 require_relative './lib/sudoku'
 require_relative './lib/cell'
 
-
-set :partial_template_engine, :erb
 enable :sessions
+set :partial_template_engine, :erb
 use Rack::Flash
+set :session_secret, "secret key to sign the cookie"
 
 def random_sudoku
     # we're using 9 numbers, 1 to 9, and 72 zeros as an input
