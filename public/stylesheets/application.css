@@ -8,8 +8,10 @@ div.box, div.cell {
 }
 
 #sudoku {
+	margin-left: 120px;
+	margin-top: 240px;
 	font-size: 0;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -19,7 +21,7 @@ body {
 }
 
 h1	{
-	color: #F778A1;
+	color: #F898A3;
 	font-family: courier 
 }
 
@@ -33,5 +35,12 @@ h1	{
 
 #flash {
   margin: 20px;
-  color: blue;
+  color: #357EC7;
+}
+
+body{
+	background-color: #F8E6D7;
+	background-image: url('../ichigo_2.png');
+	background-size: 100%;
+	background-repeat:no-repeat;
 }
